@@ -17,4 +17,7 @@ Be careful of accidental/unintentional invoking of the *default binding* rule. I
 Instead of the four standard binding rules, ES6 arrow-functions use lexical scoping for `this` binding, which means they adopt the `this` binding (whatever it is) from its enclosing function call. They are essentially a syntactic replacement of `self = this` in pre-ES6 coding.
 
 ## Other `this` context references:
-- [Strawman Bind Operator `::`](http://wiki.ecmascript.org/doku.php?id=strawman:bind_operator)
+- ES2015 Binding
+  - arrow-functions
+- Future ES Versions
+  - [Strawman Bind Operator `::`](http://wiki.ecmascript.org/doku.php?id=strawman:bind_operator)
